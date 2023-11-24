@@ -5,3 +5,11 @@ body {
 .header {
     background-color: #373737;
 }
+
+.albums {
+    padding: 20px;
+}
+
+.col {
+    padding: 20px;
+}
