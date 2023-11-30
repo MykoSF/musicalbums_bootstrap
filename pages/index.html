@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Albums</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/fonts/headers.css">
+  <link rel="stylesheet" href="/fonts/heroes.css">
+  <link rel="stylesheet" href="/pages/main.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <section id="header">
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <i class="bi bi-spotify"></i>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#homepage" class="nav-link px-2 text-white">Home</a></li>
+            <li><a href="#jumbotron" class="nav-link px-2 text-white">About</a></li>
+            <li><a href="#albums" class="nav-link px-2 text-white">Albums</a></li>
+          </ul>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+              aria-label="Search">
+          </form>
+        </div>
+      </div>
+      </div>
+    </header>
+  </section>
+  <!-- HEADER -->
+
+
+  <!-- HERO IMAGE -->
+  <section id="homepage">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/album_covers/spotifybanner.png" class="d-block mx-lg-auto img-fluid" id="heroform" alt="Spotify Banner" style="border-radius: 5px;" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Greetings, music enthusiasts!</h1>
+          <p class="lead">This blog is a canvas of musical discoveries, a place where we've chronicled the tunes that
+            have resonated with us. Join us as we look back on the albums, tracks, and beats that made our year uniquely
+            melodious. <br>
+            Expect spotlights on standout albums, explorations into the tales behind the music, and a peek into the
+            emotions each note carries. This blog isn't just about our playlists; it's a community where your thoughts
+            and recommendations are as important as ours.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- HERO IMAGE -->
+
+  <!-- JUMBOTRON -->
+  <section id="jumbotron" class="jumbotron">
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path
+          d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path
+          d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+        <path
+          d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path
+          d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+      </symbol>
+    </svg>
+
+    <main>
+      <div class="container py-4">
+        <div id="firstjumbo" class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">What is this about?</h1>
+            <p class="col-md-8 fs-4">Dive into the heart of music, my music, where we unveil a curated collection of albums that resonate with personal taste. Explore the stories behind each track, discover hidden gems, and let the beats speak to your soul. Your musical journey, in vibrant detail.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div id="secondjumbo" class="h-100 p-5 text-bg-dark rounded-3">
+              <h2>Why is this important?</h2>
+              <p>Explore the profound impact of music on our lives. From shaping our moods to sparking memories, discover the universal language that connects us all. Join the conversation on why music is more than just sound – it's an essential part of the human experience.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="thirdjumbo" class="h-100 p-5 text-bg-dark rounded-3">
+              <h2>Main objective</h2>
+              <p>At the core of this blog lies a singular mission: to unearth and share exceptional music. Join us in navigating the vast landscape of genres as we spotlight albums that transcend the ordinary. Here, the main objective is clear: to be your guide in discovering the musical gems that deserve a place in your playlist.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </section>
+  <!-- JUMBOTRON -->
+
+  <!-- ALBUMS -->
+  <section id="albums">
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/certifiedloverboy.png" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Certified Lover Boy is the sixth studio album by Canadian rapper and singer
+                  Drake,
+                  released on September 3, 2021, by OVO Sound and Republic Records. Its production was handled by
+                  frequent collaborators 40, Nineteen85, PartyNextDoor, OZ, and Vinylz, among others. It is the first
+                  part of what Drake
+                  described as a "trilogy" of albums, that also includes the follow-ups Honestly, Nevermind and Her
+                  Loss
+                  (both 2022).</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/3SpBlxme9WbeQdI9kx7KAV?si=rde0MKlXTeSfVM2gExQ68w">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">49min 1s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/isolation.jpg" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Isolation is the debut studio album by American singer Kali Uchis, released
+                  worldwide on April 6, 2018, by Rinse Recordings, Virgin EMI Records, and Universal Music
+                  Group.[7][8]
+                  The album was supported by five singles: "Dead to Me", "Tyrant" featuring Jorja Smith, "Nuestro
+                  Planeta" featuring Reykon, "After the Storm" featuring Tyler, the Creator and Bootsy Collins, and
+                  "Just a Stranger" featuring Steve Lacy. The album was later certified Gold by the Recording Industry
+                  Association of America.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/4EPQtdq6vvwxuYeQTrwDVY?si=wQ0HSEyjT8yh3bytaEHe1A">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">46min 37s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/currents.png" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Currents is the third studio album by Australian musical project Tame Impala. It
+                  was released on 17 July 2015 by Modular Recordings and Universal Music Australia. In the United
+                  States
+                  it was released by Interscope Records and Fiction Records in the UK, while Caroline International
+                  released it in other regions. Like the project's previous two albums, Currents was written,
+                  recorded,
+                  performed, and produced by Kevin Parker. For the first time, Parker mixed the music and recorded all
+                  instruments by himself; the album featured no other collaborators.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/79dL7FLiJFOO0EoehUHQBv?si=h9GaomShQouV0EHm9ATS4Q">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">51min 11s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/koinoyokan.png" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Koi No Yokan is the seventh studio album by American alternative metal band
+                  Deftones, released on November 12, 2012, by Reprise Records.[3][4] Its title is a phrase from the
+                  Japanese language "恋の予感", translating to "premonition of love".[5][6] Koi No Yokan was met with
+                  widespread acclaim from critics upon its release, and debuted at number eleven on the US Billboard
+                  200, selling over 65,000 copies in its first week of sales. According to Nielsen SoundScan, it has
+                  sold over 200,000 copies to date in the United States.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/4PIVdqvL1Rc7T7Vfsr8n8Q?si=PBxY_ItRQM6fD6GaxPKFZw">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">51min 48s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/lifeofadom.jpg" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Life of a Don (also abbreviated to L.O.A.D.) is the second studio album by
+                  American
+                  singer and rapper Don Toliver. It was released on October 8, 2021, through Cactus Jack Records,
+                  Atlantic Records, and We Run It. The production on the album was handled by multiple producers,
+                  including Mike Dean, Mustard, Metro Boomin, Allen Ritter, Hit-Boy, Cardo, and Sonny Digital, among
+                  others. The album also features guest appearances from Travis Scott, Kali Uchis, Baby Keem, HVN, and
+                  SoFaygo
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/2WmJ5wp5wKBlIJE6FDAIBJ?si=u3zSMHwHSYaBk651iUNoDQ">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">51min 34s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/saturdaynight.png" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Saturday Night Wrist is the fifth studio album by American alternative metal band
+                  Deftones, released on October 31, 2006, by Maverick Records. Despite early contributions that were
+                  later scrapped, it marked the departure of mainstay Deftones producer Terry Date. It was also the
+                  last
+                  Deftones album to feature bassist Chi Cheng, as well as the last album of his career and his
+                  lifetime,
+                  prior to being involved in a serious car accident in 2008, which put him in a coma. He eventually
+                  died
+                  five years later from cardiac arrest.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/4ilqDlqD37nilewk9x8tyZ?si=C4amtIooQ6i8KKCbnukaAA">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">51min 37s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/theslowrush.png" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">The Slow Rush is the fourth studio album by Australian musical project Tame
+                  Impala,
+                  released on 14 February 2020.[11][12] It follows the 2015 album Currents and the 2019 singles
+                  "Patience" and "Borderline",[13] with the latter serving as the first single from the album.[11]
+                  Rooted in psychedelic disco music, the album was positively received by critics and reached the top
+                  10
+                  on many record charts around the world, debuting atop the charts in three countries and as well as
+                  on
+                  the US Alternative and Rock charts.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/31qVWUdRrlb8thMvts0yYL?si=I1oC1Rv7Te629sIPR0DlfA">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">57min 27s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/utopia.png" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">Utopia (stylized in all caps) is the fourth studio album by American rapper
+                  Travis
+                  Scott. It was released through Cactus Jack and Epic Records on July 28, 2023. The album features
+                  guest
+                  appearances from Teezo Touchdown, Drake, Playboi Carti, Beyoncé, Rob49, 21 Savage, the Weeknd, Swae
+                  Lee, Yung Lean, Dave Chappelle, Young Thug, Westside Gunn, Kid Cudi, Bad Bunny, SZA, Future, and
+                  James
+                  Blake. Production was handled by a variety of record producers.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/18NOKLkZETa4sWwLMIm0UZ?si=aEIA7S0UTvmZDNscDPVLmQ">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  </div>
+                  <small class="text-body-secondary">1h 13min</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imgform" src="/album_covers/awakenmylove.jpg" style="height: 300px;" alt="">
+              <div class="card-body">
+                <p class="card-text">"Awaken, My Love!" is the third studio album by American recording artist Donald
+                  Glover, under his stage name Childish Gambino. It was released by Glassnote Records on December 2,
+                  2016. Consisting of tracks being sung rather than rapped, its fusion of psychedelic soul, funk and
+                  R&B
+                  influences was considered a bold departure from the predominantly hip hop style of his prior work.
+                  The
+                  album was produced by Glover and his longtime collaborator, Ludwig Göransson.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://open.spotify.com/intl-pt/album/7caGY3YPOchIO8xLvTKWN4?si=0bkiGMoARUSN0vy22UA6Pg">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                    </a>
+                  </div>
+                  <small class="text-body-secondary">49min 1s</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ALBUM -->
+
+  <!-- FOOTER -->
+  <section>
+  <div class="container">
+    <footer id="footer">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li><a href="#homepage" class="nav-link px-2 text-white">Home</a></li>
+        <li><a href="#jumbotron" class="nav-link px-2 text-white">About</a></li>
+        <li><a href="#albums" class="nav-link px-2 text-white">Albums</a></li>
+      </ul>
+    </footer>
+  </div>
+</section>
+  <!-- FOOTER -->
+
+</body>
+
+</html>
