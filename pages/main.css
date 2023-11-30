@@ -1,15 +1,78 @@
 body {
-    /* background: linear-gradient(#898989, #373737); */
+    background-image: url(/album_covers/background.png);
 }
 
-.header {
-    background-color: #373737;
+#homepage {
+    display: flex;
 }
 
-.albums {
+#homepage {
+    background-color: #ffffff;
+    margin: auto;
+    max-height: 400px ;
+    border-bottom: 7px solid #212529;
+    margin-bottom: 10px;
+}
+
+
+#footer {
+    margin-bottom: -1px;
+    background:linear-gradient(#2D46B9, #00177b);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 50px auto;
+}
+
+#albums {
     padding: 20px;
+    margin: auto;
+    max-width: 70%;
+    background:linear-gradient(#2D46B9, #00177b);
+    border-radius: 10px;
 }
 
 .col {
     padding: 20px;
+    margin: auto;
+    
+}
+
+.imgform {
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 8px;
+}
+
+#firstjumbo {
+    background:linear-gradient(#2D46B9, #00177b);
+    border-radius: 10px;    
+    color: white;
+}
+#secondjumbo {
+    background:linear-gradient(#2D46B9, #00177b);
+    border-radius: 10px;
+        color: white;
+}
+#thirdjumbo {
+    background:linear-gradient(#2D46B9, #00177b);
+    border-radius: 10px;
+        color: white;
+}
+
+.jumbotron {
+    max-width: 70%;
+    margin: auto;
+}
+
+@media (max-width: 1100px) {
+    html {
+        display: grid;
+    }
+    #heroform {
+        width: 0px;
+    }
+    #homepage {
+        align-items: center;
+    }
 }
